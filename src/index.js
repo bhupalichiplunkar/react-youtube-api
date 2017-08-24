@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import App from './components/app';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+const API_KEY = 'AIzaSyCrEL-j6sb5QQ44wnN-E_9-sOluOusVzrE';
+
+ReactDOM.render(
+  <App />
+  , document.querySelector('.container'));

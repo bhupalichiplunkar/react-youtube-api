@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/app';
+import './index.css';
 
 const API_KEY = 'AIzaSyCrEL-j6sb5QQ44wnN-E_9-sOluOusVzrE';
 

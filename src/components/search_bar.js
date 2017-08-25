@@ -15,7 +15,7 @@ class SearchBar extends Component {
   render () {
     return (
       <div className="search-bar">
-        <input
+        <input placeholder = "Start typing to search other videos..."
          value = {this.state.searchTerm}
          onChange={e => this.onTermChange(e.target.value) } />
       </div>
